@@ -160,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ApplicationLayer\Diagram.cd" />
+    <None Include="Class Daigram.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

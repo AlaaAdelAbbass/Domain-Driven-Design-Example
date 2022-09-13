@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="eCommerce.ApplicationLayer.Map" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Carts.CartDto" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAABQAAAAAAAAAAAQ=</HashCode>
+      <FileName>ApplicationLayer\Carts\CartDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Carts.CartProductDto" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Carts\CartProductDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Carts.CartService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAEAAABABABAAABECAAAAAAAAgQABAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Carts\CartService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Carts.CheckOutResultDto" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAABAAAAAAAIAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Carts\CheckOutResultDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Customers.CreditCardDto" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACCAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Customers\CreditCardDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Customers.CustomerDto" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ApplicationLayer\Customers\CustomerDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Customers.CustomerPurchaseHistoryDto" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAACAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAw=</HashCode>
+      <FileName>ApplicationLayer\Customers\CustomerPurchaseHistoryDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Customers.CustomerService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAEEAAAMABAAAAABAGAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Customers\CustomerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.History.EventDto" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQAAQAAAAAEAAA=</HashCode>
+      <FileName>ApplicationLayer\History\EventDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.History.HistoryDto" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\History\HistoryDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.History.HistoryService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\History\HistoryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Products.ProductDto" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAABAAAJQAAAAAAAQgAAAAgAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Products\ProductDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.ApplicationLayer.Products.ProductService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAAAABAAAAAAACAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Products\ProductService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Settings" Collapsed="true">
+    <Position X="11.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Carts.Cart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAQAABAAAABAAAAAAAAFAAAAAAAgBAAAQ=</HashCode>
+      <FileName>DomainModelLayer\Carts\Cart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Carts.CartCreated" Collapsed="true">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Carts\CartCreated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Carts.CartProduct" Collapsed="true">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAgAAAAAAAAABAAAAAAAFQAAAAAgAAACAA=</HashCode>
+      <FileName>DomainModelLayer\Carts\CartProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Carts.CustomerCartSpec" Collapsed="true">
+    <Position X="10" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Carts\CustomerCartSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Carts.ProductAddedCart" Collapsed="true">
+    <Position X="15.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Carts\ProductAddedCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Carts.ProductInCartSpec" Collapsed="true">
+    <Position X="10" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Carts\ProductInCartSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Carts.ProductRemovedCart" Collapsed="true">
+    <Position X="13.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Carts\ProductRemovedCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Countries.Country" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Countries\Country.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Countries.CountryCreated" Collapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Countries\CountryCreated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CreditCard" Collapsed="true">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAECCAAAAAAAAAAAgAAQAAAAAAAAAEQgAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CreditCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CreditCardAdded" Collapsed="true">
+    <Position X="13.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CreditCardAdded.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.Customer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAEAAACAAAAAAAAgCCAAAAAAQAEACAgAAAAIAAAg=</HashCode>
+      <FileName>DomainModelLayer\Customers\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CustomerAlreadyRegisteredSpec" Collapsed="true">
+    <Position X="18.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CustomerAlreadyRegisteredSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CustomerBulkIdFindSpec" Collapsed="true">
+    <Position X="8.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CustomerBulkIdFindSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CustomerChangedEmail" Collapsed="true">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CustomerChangedEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CustomerCheckedOutHandle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAACAAAAAAAAAAAAAAIAAAAAAABAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CustomerCheckedOutHandle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CustomerCheckedOut" Collapsed="true">
+    <Position X="13.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CustomerCheckOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CustomerCreated" Collapsed="true">
+    <Position X="17" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CustomerCreated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CustomerCreatedHandle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CustomerCreatedHandle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CustomerPurchaseHistoryReadModel" Collapsed="true">
+    <Position X="8.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAAAAABAAAAAAAAAAAAABAAAAAAAgAAAAw=</HashCode>
+      <FileName>DomainModelLayer\Customers\CustomerPurchaseHistoryReadModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.CustomerRegisteredSpec" Collapsed="true">
+    <Position X="11.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CustomerRegisteredSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.Spec.CreditCardAvailableSpec" Collapsed="true">
+    <Position X="15.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\CreditCardAvailableSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Customers.Spec.CountryTypeOfTaxSpec" Collapsed="true">
+    <Position X="10" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAgAAAABAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Tax\CountryTypeOfTaxSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Products.Product" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAABAgABQAAAAACEQgAAgAgAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Products\Product.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Products.ProductCode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Products\ProductCode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Products.ProductCodeCreated" Collapsed="true">
+    <Position X="18.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DomainModelLayer\Products\ProductCodeCreated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Products.ProductCreated" Collapsed="true">
+    <Position X="8.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Products\ProductCreated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Products.ProductIsInStockSpec" Collapsed="true">
+    <Position X="11.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Products\ProductIsInStockSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Products.ProductReturnReasonSpec" Collapsed="true">
+    <Position X="15.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Products\ProductReturnReasonSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Products.Return" Collapsed="true">
+    <Position X="10" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAIAAAAAAAAAAAAAAAQAAAAAAAEAAAA=</HashCode>
+      <FileName>DomainModelLayer\Products\Return.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Purchases.PurchasedNProductsSpec" Collapsed="true">
+    <Position X="18.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Purchases\CustomerPurchasedNProductsSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Purchases.CustomerPurchasesSpec" Collapsed="true">
+    <Position X="10" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Purchases\CustomerPurchasesSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Purchases.Purchase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAAAAAABAAAAAAAAAAAAAFQAAAAAAgAAAAQ=</HashCode>
+      <FileName>DomainModelLayer\Purchases\Purchase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Purchases.PurchasedProduct" Collapsed="true">
+    <Position X="8.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Purchases\PurchasedProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Services.CheckoutService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAQAEEAAABAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Services\CheckoutService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Services.TaxService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAACCAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Services\TaxService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Tax.CountryTax" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAoAAEAAAQAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Tax\CountryTax.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.DomainModelLayer.Tax.CountryTaxCreated" Collapsed="true">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Tax\CountryTaxCreated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.Helpers.Domain.DomainEvent" Collapsed="true">
+    <Position X="5.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAQAAAAAQAAQAAAAAEAAA=</HashCode>
+      <FileName>Helpers\Domain\DomainEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.Helpers.Domain.DomainEventHandle&lt;TDomainEvent&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAJAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Domain\DomainEventHandle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.Helpers.Domain.DomainEventRecord" Collapsed="true">
+    <Position X="9.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQAAQAAAAAEAAA=</HashCode>
+      <FileName>Helpers\Domain\DomainEventRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.Helpers.Domain.DomainEvents" Collapsed="true">
+    <Position X="7.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAKAAAAAAAAAAAAABAAAAAAACAQAAAAA=</HashCode>
+      <FileName>Helpers\Domain\DomainEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.Helpers.Specification.And&lt;T&gt;" Collapsed="true">
+    <Position X="28.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Helpers\Specification\And.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.Helpers.Specification.IExtensions" Collapsed="true">
+    <Position X="49.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEAAAAAAA=</HashCode>
+      <FileName>Helpers\Specification\IExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.Helpers.Specification.Negated&lt;T&gt;" Collapsed="true">
+    <Position X="44.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Specification\Negate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.Helpers.Specification.Or&lt;T&gt;" Collapsed="true">
+    <Position X="46.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Helpers\Specification\Or.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eCommerce.Helpers.Specification.SpecificationBase&lt;T&gt;" Collapsed="true">
+    <Position X="36.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAABAABAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Specification\SpecificationBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.MemDomainEventRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\MemDomainEventRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.MemoryRepository&lt;TEntity&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAIAABAAAAAAJAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\MemoryRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.MemoryUnitOfWork" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\MemoryUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.SmtpEmailDispatcher" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\SmtpEmailDispatcher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.StubDataCountryRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAIgABAAAAAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\StubDataCountryRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.StubDataCountryTaxRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAIgABAAAAAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\StubDataCountryTaxRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.StubDataCustomerRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAIgABAAAAAAJAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>InfrastructureLayer\StubDataCustomerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.StubDataProductCodeRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAIgABAAAAAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\StubDataProductCodeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.StubDataProductRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAIgABAAAAAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\StubDataProductRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.StubEmailGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\StubEmailGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="eCommerce.InfrastructureLayer.WSNewsletterSubscriber" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfrastructureLayer\WSNewsletterSubscriber.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="eCommerce.ApplicationLayer.Carts.ICartService" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAABABAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Carts\ICartService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.ApplicationLayer.Customers.ICustomerService" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAMABAAAAABAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Customers\ICustomerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.ApplicationLayer.History.IHistoryService" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\History\IHistoryService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.ApplicationLayer.Products.IProductService" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationLayer\Products\IProductService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.DomainModelLayer.Customers.ICustomerRepository" Collapsed="true">
+    <Position X="8.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DomainModelLayer\Customers\ICustomerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.DomainModelLayer.Email.IEmailDispatcher" Collapsed="true">
+    <Position X="10" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Email\IEmailDispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.DomainModelLayer.Email.IEmailGenerator" Collapsed="true">
+    <Position X="11.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Email\IEmailGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.DomainModelLayer.Newsletter.INewsletterSubscriber" Collapsed="true">
+    <Position X="13.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Newsletter\INewsletterSubscriber.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.Helpers.Domain.Handles&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Domain\Handle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.Helpers.Domain.IAggregateRoot" Collapsed="true">
+    <Position X="9.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Domain\IAggregateRoot.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.Helpers.Domain.IDomainService" Collapsed="true">
+    <Position X="7.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Domain\IDomainService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.Helpers.Logging.IRequestCorrelationIdentifier" Collapsed="true">
+    <Position X="13.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Logging\IRequestCorrelationIdentifier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.Helpers.Repository.IDomainEventRepository" Collapsed="true">
+    <Position X="20.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Repository\IDomainEventRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.Helpers.Repository.IRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="18" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAIAABAAAAAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Repository\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.Helpers.Repository.IUnitOfWork" Collapsed="true">
+    <Position X="22.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Repository\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="eCommerce.Helpers.Specification.ISpecification&lt;T&gt;" Collapsed="true">
+    <Position X="49.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Specification\ISpecification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="eCommerce.DomainModelLayer.Carts.CheckOutIssue" Collapsed="true">
+    <Position X="8.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAgAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Carts\CheckOutIssue.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eCommerce.DomainModelLayer.Email.EmailTemplate" Collapsed="true">
+    <Position X="10" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Email\EmailTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eCommerce.DomainModelLayer.Products.ReturnReason" Collapsed="true">
+    <Position X="15.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Products\ReturnReason.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eCommerce.DomainModelLayer.Products.ProductState" Collapsed="true">
+    <Position X="13.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Services\ProductState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eCommerce.DomainModelLayer.Services.PaymentStatus" Collapsed="true">
+    <Position X="11.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Services\PaymentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eCommerce.DomainModelLayer.Tax.TaxType" Collapsed="true">
+    <Position X="17" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModelLayer\Tax\TaxType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
